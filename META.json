@@ -33,13 +33,14 @@
       "runtime" : {
          "requires" : {
             "File::HomeDir" : "0.99",
+            "IO::Socket::Multicast" : "1.12",
             "Moose" : "2.06",
             "Proc::Daemon" : "0.14",
-            "Test::More" : 0,
+            "Test::More" : "0.98",
             "Try::Tiny" : "0.11"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "version" : "0.02"
 }
